@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Tabatha</title>
+</head>
+<body style="width: 600px">
+  <h1 style="text-align: center; color:red">Tabatha Plus</h1>
+  <label for="SearchBar">Search Bar</label><br>
+  <input type="text" id="SearchBar" name="SearchBar" placeholder="Search..." ><br>
+  <br>
+  <b>Tab List</b>
+  <div style= "max-height: 400px; overflow: scroll; overflow-x: hidden;" id="Tablist"></div>
+  <button id="Sort" title="Sorts all the tabs in current window." >Sort All Tabs</button>
+  <button id="Discard" title="Removes the selected tabs from Memory without closing">Unload From Memory</button>
+  <button id="DisableAutoDiscard" title="Stops the selected tabs from being automatically removed from Memory" >Disable Auto Unload</button>
+  <button id="CloseTab" title="Closes selected tabs" >Close Tab</button>
+  <button id="OpenTab" title="Brings selected tab to the foreground" >Open Tab</button>
+  <button id="PinTab" title="Pins selected tab in window">Pin Tab</button>
+  <script src="popup.js"></script>
+</body>
+</html>
