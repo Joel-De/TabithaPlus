@@ -1,5 +1,5 @@
 # TabithaPlus
-Google Chrome Tab managing extension designed to give users low level control of what chrome is doing as well as interfaces for high level operations such as deleting multiple tabs, or opening a tab nested within several windows.
+A simple Google Chrome Tab managing extension designed to give users low level control of what chrome is doing as well as interfaces for high level operations such as deleting multiple tabs, or opening a tab nested within several windows.
 
 Features:
 
